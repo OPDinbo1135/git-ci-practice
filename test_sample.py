@@ -1,3 +1,4 @@
 from main import greet
 def test_greet():
- assert greet("world") == "Hello, world!"
+ black_list = ['Petya', 'Vanya', 'Masha']
+ assert greet("world", black_list) == "Hello, world!"
